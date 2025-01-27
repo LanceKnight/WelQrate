@@ -1,0 +1,9 @@
+matplotlib==3.7.1
+fsspec==2024.5.0
+networkx==2.8.7
+numpy==1.23
+pandas==1.4
+scipy==1.11.0
+setuptools==68.0.0
+tqdm==4.65.0
+rdkit==2023.09.6
