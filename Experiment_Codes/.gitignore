@@ -1,4 +1,20 @@
-/local_scripts/
-/logs/
-/saved_models/
-/result/
+
+
+check_dataset.py
+# check_mols.ipynb
+create_dataset.py
+scaffold_check.py
+# check_scaffold.ipynb
+subset_dataset.pt
+check_isolated_points.py
+results/
+datasets/
+# exclude __pycache__
+welqrate/__pycache__/*
+welqrate/utils/__pycache__/*
+welqrate.egg-info/
+\welqrate/mol_utils/__pycache__/*
+welqrate/models/__pycache__/*
+welqrate/models/gnn2d/__pycache__/*
+welqrate/models/gnn3d/__pycache__/*
+welqrate/models/MLP/__pycache__/*

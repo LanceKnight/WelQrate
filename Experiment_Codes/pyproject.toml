@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "welqrate"
+version = "1.0.0"
+description = "The official implementation of the WelQrate dataset and benchmark"
+authors = [
+    {name = "Xin Wang", email = "xin.wang.1@vanderbilt.edu"},
+    {name = "Yunchao Liu", email = "yunchao.liu@vanderbilt.edu"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+    "rdkit==2023.9.6",  # Specify the exact version of RDKit here
+    # Add other dependencies as needed
+]
+requires-python = ">=3.8"
+
+
